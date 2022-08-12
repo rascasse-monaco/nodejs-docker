@@ -1,4 +1,4 @@
-FROM node:18.5.0-slim
+FROM node:16.16.0-slim
 
 RUN apt-get update
 RUN apt-get install -y locales git procps less vim tmux
